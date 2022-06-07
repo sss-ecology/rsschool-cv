@@ -12,13 +12,13 @@ I want to learn Front-End Development in RSSchool!
 -----
 
 ### **Education and scills:[](https://sss-ecology.github.io/rsschool-cv/cv#education-and-skills)**
-*University: St. Petersburg State University, Faculty of Biology, bachelor's degree
-*Scills:
-    *HTML5, CSS3
-    *JavaScript Basics
-    *Git, GitHub
-    *Python Basics
-    *Bash, Jupyter Notebook
+* University: St. Petersburg State University, Faculty of Biology, bachelor's degree
+* Scills:
+    - HTML5, CSS3
+    - JavaScript Basics
+    - Git, GitHub
+    - Python Basics
+    - Bash, Jupyter Notebook
 -----
 ### **Code example:[](https://sss-ecology.github.io/rsschool-cv/cv#code-example)**
 ```python
@@ -65,12 +65,12 @@ else:
 
 ### **Courses:[](https://sss-ecology.github.io/rsschool-cv/cv#courses)**
 * Web development for beginners: HTML и CSS on the [Stepik](https://stepik.org/) (completed)
-    *![Stepic Score](https://stepik.org/certificate/aaea4d0847b836faa59eb1d014d040e739d021c3.png?resolution=medium)
+![Stepic Score](https://stepik.org/certificate/aaea4d0847b836faa59eb1d014d040e739d021c3.png?resolution=medium)
 * Python Programming on the [Stepik](https://stepik.org/) (completed)
-    *![Stepic Score](https://stepik.org/certificate/f0b7b0ab8293ba68e89f9b90efa84397de8c4394.png?resolution=medium)
+![Stepic Score](https://stepik.org/certificate/f0b7b0ab8293ba68e89f9b90efa84397de8c4394.png?resolution=medium)
 * JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 ### **Languages:[](https://sss-ecology.github.io/rsschool-cv/cv#languages)**
-- English - Intermediate/Upper-intermediate 
-- Russian - Native
+* English - Intermediate/Upper-intermediate 
+* Russian - Native
