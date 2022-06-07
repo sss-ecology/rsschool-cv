@@ -8,12 +8,12 @@
 * **Telegram:** @brave_bumblebee
 
 ### **Briefly About Myself:[](https://sss-ecology.github.io/rsschool-cv/cv#briefly-about-myself)**
-*I want to learn Front-End Development in RSSchool!*
+* I want to learn Front-End Development in RSSchool!
 -----
 
 ### **Education and skills:[](https://sss-ecology.github.io/rsschool-cv/cv#education-and-skills)**
 * University: St. Petersburg State University, Faculty of Biology, bachelor's degree
-* Scills:
+* Skills:
     - HTML5, CSS3
     - JavaScript Basics
     - Git, GitHub
