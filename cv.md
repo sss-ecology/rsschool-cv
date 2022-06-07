@@ -63,7 +63,7 @@ else:
 ```
 -----
 
-### **Courses:[](https://annavoloshina.github.io/rsschool-cv/cv#courses)**
+### **Courses:[](https://sss-ecology.github.io/rsschool-cv/cv#courses)**
 * Web development for beginners: HTML и CSS on the [Stepik](https://stepik.org/) (completed)
     *![Stepic Score](https://stepik.org/certificate/aaea4d0847b836faa59eb1d014d040e739d021c3.png?resolution=medium)
 * Python Programming on the [Stepik](https://stepik.org/) (completed)
