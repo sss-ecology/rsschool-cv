@@ -5,13 +5,13 @@
 ### **Contact information:[](https://sss-ecology.github.io/rsschool-cv/cv#contact-information)**
 * **Phone:** +7 (930) 47-28-597
 * **E-mail:** pushistik680@gmail.com
-* **Telegram:** brave_bumblebee
+* **Telegram:** @brave_bumblebee
 
 ### **Briefly About Myself:[](https://sss-ecology.github.io/rsschool-cv/cv#briefly-about-myself)**
-I want to learn Front-End Development in RSSchool!
+*I want to learn Front-End Development in RSSchool!*
 -----
 
-### **Education and scills:[](https://sss-ecology.github.io/rsschool-cv/cv#education-and-skills)**
+### **Education and skills:[](https://sss-ecology.github.io/rsschool-cv/cv#education-and-skills)**
 * University: St. Petersburg State University, Faculty of Biology, bachelor's degree
 * Scills:
     - HTML5, CSS3
