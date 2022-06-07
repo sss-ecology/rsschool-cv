@@ -1,14 +1,21 @@
 # [**rsschool-cv**](https://sss-ecology.github.io/rsschool-cv/)
+
 -----
+
 # **Ekaterina Markova**
+
 -----
+
 ### **Contact information:[](https://sss-ecology.github.io/rsschool-cv/cv#contact-information)**
 * **Phone:** +7 (930) 47-28-597
 * **E-mail:** pushistik680@gmail.com
 * **Telegram:** @brave_bumblebee
 
+-----
+
 ### **Briefly About Myself:[](https://sss-ecology.github.io/rsschool-cv/cv#briefly-about-myself)**
 * I want to learn Front-End Development in RSSchool!
+
 -----
 
 ### **Education and skills:[](https://sss-ecology.github.io/rsschool-cv/cv#education-and-skills)**
@@ -19,7 +26,9 @@
     - Git, GitHub
     - Python Basics
     - Bash, Jupyter Notebook
+
 -----
+
 ### **Code example:[](https://sss-ecology.github.io/rsschool-cv/cv#code-example)**
 ```python
 n = int(input())
@@ -70,6 +79,8 @@ else:
 ![Stepic Score](https://stepik.org/certificate/f0b7b0ab8293ba68e89f9b90efa84397de8c4394.png?resolution=medium)
 * JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+-----
 
 ### **Languages:[](https://sss-ecology.github.io/rsschool-cv/cv#languages)**
 * English - Intermediate/Upper-intermediate 
