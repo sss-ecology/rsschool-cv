@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>cv</title>
+    <link rel="icon" href="./assets/ico/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Briefly About Myself</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Education and skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/face.jpg" alt="my photo" class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Ekaterina Markova</h1>
+                    <h3 class="section-subtitle">Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">
+                        Email: <a href="mailto:pushistik680@gmail.com" title="email">pushistik680@gmail.com</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Github: <a href="https://github.com/sss-ecology" title="github">sss-ecology</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Telegram: <a href="https://t.me/brave_bumblebee" title="github">@brave_bumblebee</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Briefly About Myself</h2>
+                <p>
+                    I want to learn Front-End Development in RSSchool!
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Education and skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        University: 
+                        <ul class="section-list">
+                            <li class="section-item">
+                                St. Petersburg State University, Faculty of Biology, bachelor's degree
+                            </li>
+                        </ul> 
+                    </li>
+                    <li class="section-item">
+                        Skills:
+                        <ul class="section-list">
+                            <li class="section-item">HTML5, CSS3</li>
+                            <li class="section-item">JavaScript Basics</li>
+                            <li class="section-item">Git, GitHub</li>
+                            <li class="section-item">Python Basics</li>
+                            <li class="section-item">Bash, Jupyter Notebook</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code example</h2>
+                <pre><code>n = int(input())
+a = list(map(int, input().split()))
+m = int(input())
+b = list(map(int, input().split()))
+selo = list((enumerate(a, 1)))
+sorted_selo = sorted(selo, key=lambda x: x[1])
+bomba = list((enumerate(b, 1)))
+sorted_bomba = sorted(bomba, key=lambda x: x[1])
+s = [0 for i in range(len(sorted_selo)+1)]
+
+
+def sb(a, n, s):
+    k = 0
+    l = 0
+    while k < len(a) and l < len(n):
+        u1 = abs(a[k][1] - n[l][1])
+        u2 = abs(a[k-1][1] - n[l][1])
+        if k+1 >= len(a):
+            k = -1
+        u3 = abs(a[k+1][1]-n[l][1])
+        if abs(a[k][1]-n[l][1]) == min(u1, u2, u3):
+            uno = n[l][0]
+            dos = a[k][0]
+            s[uno] = dos
+            l += 1
+        else:
+            k += 1
+    s.pop(0)
+    return s
+
+
+if len(sorted_bomba) == 1:
+    for i in range(len(s)):
+        s[i] = sorted_bomba[0][0]
+    s.pop(0)
+    print(*s)
+else:
+    print(*sb(sorted_bomba, sorted_selo, s))</code></pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                       Web development for beginners: HTML и CSS on the Stepik (completed) 
+                    </li>
+                    <li class="section-item">
+                       Python Programming on the Stepik (completed) 
+                    </li>
+                    <li class="section-item">
+                       JavaScript Manual on learnjavascript.ru (in progress) 
+                    </li>
+                    <li class="section-item">
+                        RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+                    </li>
+                </ul>
+            </section>
+            <section class="section section-languages" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                       English - Intermediate/Upper-intermediate  
+                    </li>
+                    <li class="section-item">
+                       Russian - Native   
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>© 2022 <a href="https://github.com/sss-ecology" class="github nav-link">sss-ecology</a></div>
+             <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
